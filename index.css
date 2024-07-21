@@ -1,3 +1,10 @@
-* {
-    box-sizing: border-box;
+/* Default styles for all sections */
+h2 {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+/* Styles for the target section */
+h2:target {
+display: none;
 }
